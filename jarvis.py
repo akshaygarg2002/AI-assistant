@@ -174,7 +174,7 @@ if __name__=="__main__":
             name = takecommand(c).lower()
             speak("What should I say?")
             message = takecommand(c)
-            dir = {"vinay":"+918218702633","akshay":"+917464877820","sachin":"+919756377820","avinash":"+919335586972","aditya":"+917310685153"}
+            dir = {"vinay":"+918218709999","akshay":"+917464899999","sachin":"+919756399999","avinash":"+919335599992","aditya":"+917310689999"}
             if name in dir.keys():
                 pywhatkit.sendwhatmsg(dir[name],message,h,m+1)
             else:
